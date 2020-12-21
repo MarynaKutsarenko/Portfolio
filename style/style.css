@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   background-color: #E5E5E5;
   font-size: 16px;
+  line-height: 28px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -103,4 +104,60 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.description {
+  background: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-top: 60px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.description__title {
+  margin-bottom: 84px;
+}
+
+.description__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 -8px 0 0;
+  padding-bottom: 135px;
+}
+
+.description__list--item {
+  max-width: 300px;
+  padding-bottom: 63px;
+  padding-right: 8px;
+}
+
+.description__list--item:last-child {
+  padding-right: 0;
+}
+
+.description__link {
+  display: block;
+  padding-bottom: 22px;
+}
+
+.pretitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.description__pretitle {
+  padding-bottom: 16px;
+}
+
+.projects {
+  background: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
