@@ -207,19 +207,22 @@
 			<div class="header__content">
 				<div class="header__content--info">
 					<p class="header__content--pretitle">Фрилансер</p>
-					<h1 class="header__content-title">Артем Исламов</h1>
+					<h1 class="header__content-title">Марина Куцаренко</h1>
 					<p class="header__content--text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
 						дизайн и верстку небольшого сайта или интернет-магазина</p>
 					<a href="#" class="header__btn btn">Бесплатная консультация</a>
 				</div>
 				<div class="header__content--img">
-					<img class="img-fluid" src="/images/image 3.jpg" alt="">
+				<picture>
+					<source media="(min-width: 480px)" srcset="images/image 3.jpg" type="image/jpg">
+					<img src="/images/image 3.jpg" alt="photo">
+				</picture>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<section class="description">
+ <section class="description">
 		<div class="container">
 			<h3 class="description__title title">Со мной удобно работать</h3>
 			<div class="description__list">
@@ -534,7 +537,7 @@
 					<a href="#" class="footer__btn btn">Бесплатная консультация</a>
 				</div>
 				<div class="footer__content">
-					<ul class="footer__info">
+					<ul class="footer__nav">
 						<li class="footer__info-items">
 							<span class="desc">Телефон</span><br><a href="tel:+79991234567"><span class="footer_info">+7 999 123 45 67</span></a>
 						</li>
@@ -556,7 +559,7 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer>  
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="/scripts/owl.carousel.min.js"></script>
