@@ -49,8 +49,9 @@ body {
 }
 
 .header__content--info {
-	flex: 1 1 auto;
-	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
 	padding-top: 30px;
 }
 
@@ -90,6 +91,7 @@ body {
 }
 
 .header__btn {
+	margin-top: auto;
 	max-width: 155px;
 	padding: 24px 42px;
 }
